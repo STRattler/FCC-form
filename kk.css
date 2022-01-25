@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Mono&display=swap');
+
+h1 {
+    font-family: "Poppins" ;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: small;
+    color: white;
+}
+
+body {
+    background-color: rgba(136, 136, 206, 2);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+#form{
+    background-color: rgba(107, 107, 255);
+    margin: auto;
+    border: auto;
+    border-radius: 25px;
+    width: 640px;
+    height: 1344.910px;
+    padding: 40px, 40px, 40px, 40px;
+    opacity: 0.7;
+}
