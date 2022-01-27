@@ -1,31 +1,207 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Mono&display=swap');
 
+
 h1 {
     font-family: "Poppins" ;
     text-align: center;
     color: white;
 }
 
-p {
+#description {
     font-family: "Poppins";
     text-align: center;
     font-size: small;
     color: white;
 }
 
-body {
-    background-color: rgba(136, 136, 206, 2);
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
-    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-#form{
-    background-color: rgba(107, 107, 255);
+
+#survey-form{
+
+    background: rgba(0, 0, 0, 0.726);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
     margin: auto;
     border: auto;
-    border-radius: 25px;
+    border-radius: 5px;
     width: 640px;
     height: 1344.910px;
-    padding: 40px, 40px, 40px, 40px;
     opacity: 0.7;
+    font-family: "Poppins";
+
+}
+
+#name-label {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+#name {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(48, 44, 44);
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 600px;
+
+}
+
+#email-label {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+
+#email {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(48, 44, 44);
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 600px;
+}
+
+#number-label {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+
+#number {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(48, 44, 44);
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 600px;
+}
+
+#Role {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+
+#dropdown {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(48, 44, 44);
+    padding-left: 10px;
+    margin-left: 15px;
+    width: 615px;
+    height: 30px;
+}
+
+#Recc {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+    ;
+}
+
+#radiotext {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+
+#Recommend {
+    display: block;
+    width: 30px;
+    height: 20px;
+    float: left;
+    margin-left: 10px; 
+}
+#Improvement {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+}
+
+.Checkbox-text {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 10px;
+    vertical-align:middle;
+    
+}
+
+.class-checkbox {
+    zoom:1.5;
+    display: inline-block;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    margin-left: 15px;
+    vertical-align:middle;
+}
+
+#comment {
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+    display: block;
+}
+
+.commentbox {
+    width: 600px;
+    height: 100px;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 17px;
+    color:rgb(48, 44, 44);
+    margin-left: 15px;
+}
+
+.submit-button {
+    margin-left: 15px;
+    width: 605px;
+    height: 40px;
+    background-color: yellowgreen;
+    font-family: "Poppins";
+    font-size: 17px;
+}
+
+.submit-button:hover {
+    background-color: rgb(0, 255, 34);
+    font-weight: bold;
+    transition: 0.1s ease-in;
+    cursor: pointer;
 }
